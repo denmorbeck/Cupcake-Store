@@ -446,12 +446,11 @@ document.querySelectorAll(".menu .box .add-to-cart-btn").forEach(button => {
         const itemName = cupcake.querySelector("h3").textContent;
         const itemPrice = cupcake.querySelector(".price").textContent.replace("R$", "").trim();
 
-        // Adiciona o cupcake ao carrinho
         addToCart(itemName, itemPrice);
     });
 });
 
-// Abrir o modal de login/registro
+
 document.getElementById('login-link').addEventListener('click', function () {
     document.getElementById('modal-auth').style.display = 'flex';
     document.getElementById('modal-title-auth').textContent = 'Login';

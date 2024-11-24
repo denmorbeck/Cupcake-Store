@@ -298,13 +298,13 @@ section{
     align-items: center;
     padding: 12px 0;
     border-bottom: 1px solid #444;
-    gap: 1rem; /* Espaço entre título/preço e os controles */
+    gap: 1rem; 
 }
 
 #cart-items li .item-info {
     display: flex;
     flex-direction: column;
-    max-width: 70%; /* Limita a largura do título/preço */
+    max-width: 70%; 
 }
 
 #cart-items li .item-title {
